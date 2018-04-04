@@ -1,0 +1,220 @@
+/*Estilos Davo*/
+
+body {
+  font-family: 'Avenir Next', Arial, sans-serif;
+  padding-top: 107px !important;
+}
+
+#buscador input{width:100%;display:block;padding:15px;border:1px solid #666;font-size:15px;line-height:normal;border-radius:3px;transition:all .3s ease;box-sizing:border-box;}
+#buscador input:focus{box-shadow:0 0 5px 2px rgba(0,0,0,.2);}
+
+.main-header{position:fixed;left:0;top:0;width:100%;background:#fff;padding:15px 0;z-index:100;border-bottom:1px solid #ddd}
+.main-header nav ul{text-align:right;}
+.main-header nav ul li{display:inline-block;vertical-align:middle;margin-right:30px;font-size:16px;position:relative;}
+.main-header nav ul li:last-of-type{margin-right: 0}
+.main-header nav ul li a{text-decoration:none;color:#4A4A4A;}
+.main-header nav ul li .user-img{position:relative;overflow:hidden;border-radius:100%;width:60px;height:60px;}
+.main-header nav ul li .user-img figure{position:absolute;left:-50%;bottom:-50%;right:-50%;top:-50%;margin:auto;max-width:100%;height:100%;}
+.main-header nav ul li .submenu{position: absolute;right: 0;min-width: 300px;padding: 15px;border: 1px solid #ddd;margin-top: 15px;background: #fff;display:none;}
+
+nav ul{text-align:center;}
+nav ul li{display:inline-block;vertical-align:middle;margin-right:30px;font-size:16px;position:relative;}
+nav ul li:last-of-type{margin-right: 0}
+nav ul li a{text-decoration:none;color:#9B9B9B;}
+nav ul li a:hover, nav ul li a:active, nav ul li a.active{text-decoration:underline;color:#4A4A4A;}
+
+#aside {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+.profile-photo {
+    width: 100%;
+    border-radius: 5px;
+}
+.profile-photo img{
+  width: 100%;
+}
+#profile-info h2.user-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+}
+#profile-info .at-user {
+  font-size: 14px;
+  line-height: 34px;
+  font-weight: normal;
+  margin: 0;
+  color: #4A4A4A;
+}
+#profile-info #labels {
+    margin: 16px auto 26px auto;
+}
+#profile-info #labels span{
+  font-size: 14px;
+  color: #FFF;
+  padding: 4px 40px !important;
+  overflow: hidden;
+  border: 1px solid #979797;
+}
+#profile-info #labels span.skyblue{
+  background-color: #50E3C2;
+}
+#profile-info #labels span.magenta{
+  background-color: #E35096;
+}
+#profile-info .follow-status {
+    font-size: 16px;
+    color: #4A4A4A;
+    margin: 0;
+}
+#profile-info .desc-text{
+  font-size: 16px;
+  color: #4A4A4A;
+  line-height: 27px;
+  font-weight: normal;
+  margin:16px 0 26px 0 !important;
+}
+#profile-info #location {
+  font-size: 16px;
+  color: #4A4A4A;
+  line-height: 30px;
+  padding-left: 31px;
+  margin: 0;
+  position: relative;
+}
+#profile-info #location:before{
+  content: '';
+  display: block;
+  background-image: url(../img/location.png);
+  width: 16px;
+  height: 22.71px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#profile-info #social{
+  margin: 26px 0;
+}
+#profile-info #social a {
+  margin-right: 16px;
+}
+
+a.btn-primari {
+    display: inline-block;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #4A4A4A;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid #4A4A4A;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+a.btn-primari:hover, a.btn-primari:active, a.btn-primari.active {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #4A90E2;
+  box-shadow: ;
+}
+
+#content .head-proyects {
+  width: calc(100% - 20px);
+  margin: 0 0 26px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#content .head-proyects h3.proyects-titles{
+  font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+#content .head-proyects a.proyects-edit{
+  font-size: 16px;
+  color: #9B9B9B;
+  font-weight: normal; 
+  text-decoration: none;
+}
+#content .head-proyects a.proyects-edit:hover, #content .head-proyects a.proyects-edit:active, #content .head-proyects a.proyects-edit.active{
+  color: #4A4A4A;
+  text-decoration: underline;
+}
+#content #item-profile {
+  border: 1px solid #979797;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+  overflow: hidden;
+  margin: 26px 0 26px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#content #item-profile .content-image {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+#content #item-profile .content-image img{
+  width: 100%;
+}
+#content #item-profile .content-text {
+  width: 60%;
+}
+#content #item-profile .content-text h4.title-pro{
+  font-size: 20px;
+  color: #4A4A4A;
+  font-weight: bold;
+  margin: 0;
+}
+#content #item-profile .content-text p {
+    font-size: 16px;
+    color: #4A4A4A;
+    font-weight: normal;
+    margin: 10px 0px 10px 0px;
+}
+#content #item-profile .content-text .friends-profiles {
+    margin: 10px 0px;
+    padding-left: 16px;
+}
+#content #item-profile .content-text .friends-profiles a.friends{
+  margin-left: -16px;
+  overflow: hidden;
+  height: auto;
+}
+#content #item-profile .content-vote {
+}
+#content #item-profile .content-vote a.upvote{
+  font-size: 14px;
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+#content #item-profile .content-vote a.upvote span {
+  padding-right: 10px;
+  border-right: 1px solid #4A4A4A;
+  margin-right: 10px;
+}
+
+#content #see-more {
+  width: 100%;
+  text-align: center;
+  margin: 26px 0;
+}
+#content #see-more  a.view-more{
+  font-size: 16px;
+  color: #9B9B9B;
+  font-weight: normal; 
+  text-decoration: none;
+}
+#content #see-more  a.view-more:hover, #content #see-more a.view-more:active, #content #see-more a.view-more.active{
+  color: #4A4A4A;
+  text-decoration: underline;
+}
+/*Estilos Davo*/
