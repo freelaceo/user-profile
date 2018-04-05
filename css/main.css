@@ -22,9 +22,16 @@ figure.full img{width:100%;height:auto;display:block;}
 .btn{display:inline-block;text-decoration:none;}
 .btn-lg{padding:15px 30px;border-radius:5px;font-size:16px;}
 .btn-md{padding:10px 15px;border-radius:5px;font-size:14px;}
+.btn-xs{padding:15px 15px;border-radius:5px;font-size:16px;}
 .btn-red{background: #FF4343;color:#fff !important;}
+.btn-blue{background: #4A90E2;color:#fff !important;}
+.btn-black{background: #343D46;color:#fff !important;}
+.text-center {
+  text-align: center;
+}
 
-.seccion{padding:60px 0;}
+
+.seccion{padding:60px 0; position: relative;}
 .padding-30{padding:30px;}
 .container{width:80%;margin:0 auto;max-width:1080px;position:relative;z-index:99}
 .container-lg{max-width: 1200px;margin:0 auto;}
@@ -85,6 +92,18 @@ figure.full img{width:100%;height:auto;display:block;}
 .mb-30{margin-bottom:30px}
 .mb-60{margin-bottom:60px}
 .mb-90{margin-bottom:90px}
+.ml-10{margin-left:10px}
+.ml-15{margin-left:15px}
+.ml-20{margin-left:20px}
+.ml-30{margin-left:30px}
+.ml-60{margin-left:60px}
+.ml-90{margin-left:90px}
+.mr-10{margin-right:10px}
+.mr-15{margin-right:15px}
+.mr-20{margin-right:20px}
+.mr-30{margin-right:30px}
+.mr-60{margin-right:60px}
+.mr-90{margin-right:90px}
 
 @media only screen and (max-width : 990px) {
   .container{width:90%}
